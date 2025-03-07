@@ -1,0 +1,8 @@
+{
+  "Carrefour.Desafio..IoC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\repositorios\\desafio\\UserApi\\src\\Carrefour.Desafio.IoC",
+  "Carrefour.Desafio.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\repositorios\\desafio\\UserApi\\src\\Carrefour.Desafio.Application",
+  "Carrefour.Desafio.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\repositorios\\desafio\\UserApi\\src\\Carrefour.Desafio.Common",
+  "Carrefour.Desafio.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\repositorios\\desafio\\UserApi\\src\\Carrefour.Desafio.Domain",
+  "Carrefour.Desafio.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\repositorios\\desafio\\UserApi\\src\\Carrefour.Desafio.WebApi",
+  "Carrefour.Desafio.WebApi.ORM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\repositorios\\desafio\\UserApi\\src\\Carrefour.Desafio.ORM"
+}

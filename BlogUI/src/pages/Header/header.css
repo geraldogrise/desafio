@@ -1,0 +1,26 @@
+.max-content {
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navibar {
+  margin-top: 0px !important;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  width: 100%;
+}
+
+.nav-right {
+  margin-left: auto;
+}
+
+.float-right {
+  margin-top: 5px;
+}
+
+.search-field {
+  width: 157px;
+  margin-right: 60px;
+}

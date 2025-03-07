@@ -1,0 +1,18 @@
+.toggle-container {
+    align-items: center;
+}
+
+.form-check-input
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:30px;
+    max-width: 200px;
+}
+.form-check-label
+{
+   position: relative;
+   left:-120px;
+   top:5px;
+}

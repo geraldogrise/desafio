@@ -1,0 +1,79 @@
+.gridview
+{
+    float:left;
+    width:100% !important;
+}
+
+.material-icons-outlined
+{
+    margin-left:10px;
+    color: #6C757D;
+}
+
+.actions
+{
+    text-align: end;
+}
+
+.columns
+{
+    text-align: center;
+}
+
+.btn-actions
+{
+    color:#000;
+}
+
+.grid-text {
+    font-weight: 400;
+}
+
+.grid-title {
+    font-weight: 700;
+}
+
+.borderless td {
+    border: none;
+}
+
+.footer-table {
+    display: flex;
+    justify-content: space-between;   
+}
+
+.footer-text {
+    font-weight: 400;
+    color: #21252980;
+}
+
+.table-container > .form-check > .form-check-label {
+    position: relative;
+    right: 55px;
+    left: -55px;
+    top:2px;
+
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1rem;
+}
+
+.table-container > .form-check > .form-check-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px !important;
+    height:24px;
+}
+
+.table-container > .toggle-container {
+    margin: 0;
+    margin-right: -25px;
+    display: flex;
+    justify-content: end;
+}
+
+.disabled-link{
+    cursor:not-allowed !important;
+    color: gray !important; 
+}

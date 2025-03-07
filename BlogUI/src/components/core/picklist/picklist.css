@@ -1,0 +1,10 @@
+.buttons
+{
+    height:30vw;
+}
+
+.button
+{
+   float:left;
+   width:100% !important;
+}

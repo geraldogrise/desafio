@@ -1,0 +1,12 @@
+.btn-drop
+{
+    background-color: white !important;
+    color:#4992fd;
+    border: none;
+}
+
+.btn-drop:hover
+{
+    background-color: white !important;
+    color:#4992fd;
+}

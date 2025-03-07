@@ -1,0 +1,35 @@
+/* CSS Document */
+
+.messages{background-color: #F7F7F7;border: 1px solid #AAAAAA; width:300px; position:relative;opacity:1;margin-top:10px;}
+
+.close-message{ position:absolute; z-index:99999; display:block; background:url(images/closeAlertas.png) no-repeat left top; width:12px; height:13px; top:5px; right:5px}
+
+.title-message{background-image: url(images/box_tit_bg.jpg); height: 39px;}
+
+.title-message span{float:left; margin:3px 0 0 8px; width:32px; height:32px;background:url(images/alertas.png) no-repeat left top; }
+
+.title-message h1{display: block; float:left;font-family: Verdana,Geneva,sans-serif; font-size: 11px; padding:8px; margin:0; text-decoration: none;
+    text-transform: uppercase;}
+	
+.message-body{max-height:150px; overflow:auto; margin:0; padding:0}
+.message-body ul{list-style:none;margin:10px;padding:0}
+.message-body ul li{color:#333;margin:0; padding:0}
+
+.messages.warning{ color:#f99031}
+.messages.warning .title-message span{ background-position:0 0; }
+.messages.warning .close-message{background-position:0 0; }
+
+.messages.success{ color:#429e03}
+.messages.success .title-message span{ background-position:0 -42px; height:33px }
+.messages.success .close-message{background-position:0 -13px; }
+
+.messages.danger{ color:#d93a1f}
+.messages.danger .title-message span{ background-position:0 -83px; height:30px; }
+.messages.danger .close-message{background-position:0 -25px; }
+
+.messages.fade{opacity: 0;transition: opacity .5s;}
+
+
+
+
+

@@ -1,0 +1,65 @@
+.container
+{
+    margin-top:20px;
+}
+
+.container-user {
+  max-width: 900px;
+  background-color: white;
+}
+
+.padding-container {
+  padding: 24px;
+}
+
+.filter-dropdown
+{
+   margin-top:10px !important;
+   float:left;
+}
+.button-group
+{
+   float:left;
+   margin-top:5px;
+   margin-left: 10px;
+}
+
+.btn-left, .btn-right
+{
+  float:left;
+}
+
+.btn-left
+{
+    width:50%;
+    background-color: red;
+}
+
+.btn-close-user{
+  width: 120px;
+}
+
+.button-container, .button-container-outline {
+  width: 80px;
+  height: 34px;
+  padding: 0;
+
+  font-size: 0.75rem;
+  font-weight: 500;
+
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.button-container-outline > span {
+  font-size: 16px;
+  margin-right: 2px;
+  margin-top: -2px;
+}
+
+
+
+
+

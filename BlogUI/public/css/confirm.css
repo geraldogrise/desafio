@@ -1,0 +1,10 @@
+.modal.show{
+    display:block;
+}
+.modal-header{
+    padding: 0.5rem 1rem;
+}
+
+.modal-body ul{
+   list-style:none
+}

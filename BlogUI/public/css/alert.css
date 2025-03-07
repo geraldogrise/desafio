@@ -1,0 +1,16 @@
+.alert{
+    min-height: 50px;
+}
+.alert ul{
+    float:left;
+    list-style: none;
+}
+.close-alert
+{
+    float: right;
+    background:transparent;
+    border: none !important;
+    color:#333;    
+    font-size: 30px;
+    margin-top:-20px;
+}

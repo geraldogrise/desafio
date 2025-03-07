@@ -1,0 +1,10 @@
+.select-group {
+  /* margin-top:20px; */
+}
+.select {
+  box-shadow: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ccc !important;
+  border-radius: 0px;
+}

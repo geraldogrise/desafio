@@ -1,0 +1,78 @@
+.user-container.show
+{
+    display:block;
+}
+.user-container.hidden
+{
+    display: none;
+}
+
+.user-container .row {
+   margin-top:20px;
+}
+
+.profile-container.show
+{
+    display:block;
+}
+
+.profile-container.hidden
+{
+    display: none;
+}
+
+.profile-container .row {
+   margin-top:20px;
+}
+
+.unit-container.show
+{
+    display:block;
+}
+
+.unit-container.hidden
+{
+    display: none;
+}
+
+.unit-container .row {
+   margin-top:20px;
+}
+.switch
+{
+    margin-top:20px;
+}
+.label-status
+{
+    float: left;
+}
+.switch
+{
+    position: relative;
+    left:100px;
+}
+.evento-sei
+{
+    border: 1px solid #ccc;
+    padding:5px !important;
+    margin-bottom:20px;
+    border-radius: 8px;
+}
+.sei-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.sei-content{
+    max-width: 322px;
+}
+.grid-sei-content {
+    max-width: 413px;
+}
+.button-user, .button-user-link {
+    width: 120px;
+    margin-left: 10px;
+}
+.button-user-link {
+    border: none;
+}

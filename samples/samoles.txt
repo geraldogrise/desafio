@@ -1,0 +1,2 @@
+docker exec -it prometheus sh
+wget -qO- http://user_api:8080/metrics

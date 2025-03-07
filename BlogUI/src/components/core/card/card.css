@@ -1,0 +1,22 @@
+.card-user
+{
+    color:#006699;
+    font-style: italic;
+    font-size: medium;;
+    width:100%;
+    float: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+.card-email
+{
+    color:darkred;
+    font-style: bold;
+    font-size: medium;;
+    width:100%;
+    float: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}

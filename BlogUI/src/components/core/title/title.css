@@ -1,0 +1,11 @@
+.title
+{
+    font-weight:700;
+    font-size:16px;
+    line-height: 20px;
+    width:100% !important;
+    display: block;
+    text-align: left;
+    margin-left: -5px;
+
+}

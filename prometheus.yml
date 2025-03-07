@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'UserApi'
+    static_configs:
+      - targets: ['user_api:8080', 'lancamento_api:8080', 'consolidado_api:8080']

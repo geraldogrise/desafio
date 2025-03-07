@@ -1,0 +1,14 @@
+button .material-icons-outlined
+{
+    margin-top:-4px;
+    color: #0D6EFD;
+}
+
+.btn:hover,
+.btn:hover span {
+  color: white;
+}
+.btn:disabled {
+  cursor: not-allowed !important; 
+  opacity: 0.7 !important;
+}

@@ -1,0 +1,34 @@
+.toast{
+    opacity:1;
+}
+.toast-danger .toast-header{
+    background-color:#dc3545;
+}
+.toast-info .toast-header{
+    background-color:#17a2b8;
+}
+.toast-success .toast-header{
+    background-color:#28a745;
+}
+.toast-warning .toast-header{
+    background-color:#ffc107;
+}
+
+.toast-header small{
+    color:#333;
+}
+
+.mr-auto{
+    color:#000;
+}
+
+.toast-danger .mr-auto,.toast-info .mr-auto,.toast-success .mr-auto{
+    color:#fff;
+}
+
+.toast-danger small,.toast-info small,.toast-success small{
+    color:#fff;
+}
+.toast-danger .close,.toast-info .close,.toast-success .close{
+    color:#fff;
+}

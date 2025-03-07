@@ -1,0 +1,117 @@
+stages:
+  - install
+  - build
+  - test
+  - sonar
+  - deploy_dev
+  - deploy_hml
+
+# Define global variables
+variables:
+  DOCKER_HOST: $DOCKER_HOST
+  DOCKER_REPOSITORY: $DOCKER_REPOSITORY
+  DOCKER_PROJECT_NAME: $DOCKER_PROJECT_NAME
+  DOCKER_DRIVER: overlay2
+  DOCKER_TLS_CERTDIR: ""
+  SONAR_HOST_URL: $SONAR_HOST_URL
+  SONAR_LOGIN: $SONAR_LOGIN
+  NEXUS_URL: $NEXUS_URL
+  NEXUS_SNAPSHOT_URL: $NEXUS_SNAPSHOT_URL
+  NEXUS_USERNAME: $NEXUS_USERNAME
+  NEXUS_PASSWORD: $NEXUS_PASSWORD
+  NODE_VERSION: "18"
+
+cache:
+  paths:
+    - node_modules/
+
+# Job to install dependencies
+install_dependencies:
+  stage: install
+  image: node:${NODE_VERSION}
+  script:
+    - npm install
+  artifacts:
+    paths:
+      - node_modules/
+
+# Job to build the React app
+build_app:
+  stage: build
+  image: node:${NODE_VERSION}
+  script:
+    - npm run build
+  artifacts:
+    paths:
+      - build/
+
+# Job to run tests
+#test:
+  #stage: test
+  #image: node:${NODE_VERSION}
+  #script:
+    #- npm run test -- --watchAll=false
+  #artifacts:
+    #when: always
+    #reports:
+      #junit: junit.xml
+
+# Job to run SonarQube analysis
+sonar:
+  stage: sonar
+  image: sonarsource/sonar-scanner-cli
+  script:
+    - sonar-scanner 
+        -Dsonar.projectKey=ssiga-gestao-alimentar-frontend-react 
+        -Dsonar.sources=src 
+        -Dsonar.host.url=${SONAR_HOST_URL} 
+        -Dsonar.login=${SONAR_LOGIN}
+  only:
+    - develop
+    - release
+    - main
+  dependencies:
+    - build_app
+
+deploy_dev:
+  stage: deploy_dev
+  image: docker:latest
+  tags:
+    - dev_siga
+  variables:
+    DOCKER_TLS_CERTDIR: ""
+  before_script:
+    - export DOCKER_HOST=unix:///var/run/docker.sock
+  script:
+    - echo "$CI_JOB_TOKEN" | docker login -u gitlab-ci-token --password-stdin $CI_REGISTRY
+    - docker build -t $CI_REGISTRY/$CI_PROJECT_PATH:developer .
+    - docker push $CI_REGISTRY/$CI_PROJECT_PATH:developer
+    - docker pull $CI_REGISTRY/$CI_PROJECT_PATH:developer
+    - docker stop $CI_PROJECT_NAME || true
+    - docker rm $CI_PROJECT_NAME || true
+    - docker run -d --name $CI_PROJECT_NAME -p 3000:80  $CI_REGISTRY/$CI_PROJECT_PATH:developer
+  only:
+    - develop
+
+# Job to deploy to Docker on the server
+deploy:
+  stage: deploy_hml
+  image: docker:latest
+  tags:
+    - homolog_siga
+  variables:
+    DOCKER_TLS_CERTDIR: ""
+  before_script:
+    - export DOCKER_HOST=unix:///var/run/docker.sock
+  script:
+    - echo "$CI_JOB_TOKEN" | docker login -u gitlab-ci-token --password-stdin $CI_REGISTRY
+    - docker build -t $CI_REGISTRY/$CI_PROJECT_PATH:homolog .
+    - docker push $CI_REGISTRY/$CI_PROJECT_PATH:homolog
+    - docker pull $CI_REGISTRY/$CI_PROJECT_PATH:homolog
+    - docker stop $CI_PROJECT_NAME || true
+    - docker rm $CI_PROJECT_NAME || true
+    - docker run -d --name $CI_PROJECT_NAME -p 3000:80  $CI_REGISTRY/$CI_PROJECT_PATH:homolog
+  only:
+    - release
+
+  

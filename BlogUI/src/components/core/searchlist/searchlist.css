@@ -1,0 +1,48 @@
+.btn-link {
+    background: none;
+    border: none;
+    padding: 0;
+    color: #333 !important;
+    text-decoration: none;
+    cursor: pointer;
+    width:100%;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+}
+
+.list-group-item {
+  border: none;
+}
+
+.list-group-item:hover
+{
+  background-color: #e9ecef;
+  color:#333 !important;
+}
+
+.list-group-item.active
+{
+  background-color: #e9ecef !important;
+}
+
+.custom-height
+{
+    height:44px !important;
+}
+
+.btn-searchlist {
+  width: 80px;
+  height: 34px;
+  padding: 0;
+
+  font-size: 0.75rem;
+  font-weight: 500;
+
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}

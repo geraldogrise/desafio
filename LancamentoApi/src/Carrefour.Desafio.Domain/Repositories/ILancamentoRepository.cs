@@ -1,0 +1,54 @@
+using Carrefour.Desafio.Domain.Entities;
+using System.Linq.Dynamic.Core;
+
+namespace Carrefour.Desafio.Domain.Repositories;
+
+/// <summary>
+/// Repository interface for Lancamento entity operations
+/// </summary>
+public interface ILancamentoRepository
+{
+    /// <summary>
+    /// Creates a new user in the repository
+    /// </summary>
+    /// <param name="user">The user to create</param>
+    /// <param name="cancellationToken">Cancellation token</param>
+    /// <returns>The created user</returns>
+    Task<Lancamento> CreateAsync(Lancamento user, CancellationToken cancellationToken = default);
+
+    /// <summary>
+    /// Updates a specific user in the repository
+    /// </summary>
+    /// <param name="id">The unique identifier of the user</param>
+    /// <param name="user">The user data to update</param>
+    /// <param name="cancellationToken">Cancellation token</param>
+    /// <returns>The updated user</returns>
+    Task<Lancamento?> UpdateAsync(Guid id, Lancamento user, CancellationToken cancellationToken = default);
+
+    /// <summary>
+    /// Retrieves a user by their unique identifier
+    /// </summary>
+    /// <param name="id">The unique identifier of the user</param>
+    /// <param name="cancellationToken">Cancellation token</param>
+    /// <returns>The user if found, null otherwise</returns>
+    Task<Lancamento?> GetByIdAsync(Guid id, CancellationToken cancellationToken = default);
+
+
+    /// <summary>
+    /// Deletes a user from the repository
+    /// </summary>
+    /// <param name="id">The unique identifier of the user to delete</param>
+    /// <param name="cancellationToken">Cancellation token</param>
+    /// <returns>True if the user was deleted, false if not found</returns>
+    Task<bool> DeleteAsync(Guid id, CancellationToken cancellationToken = default);
+
+    /// <summary>
+    /// Retrieves a list of users with pagination and ordering
+    /// </summary>
+    /// <param name="page">Page number</param>
+    /// <param name="size">Number of items per page</param>
+    /// <param name="order">Ordering of the results</param>
+    /// <param name="cancellationToken">Cancellation token</param>
+    /// <returns>A list of users with pagination info</returns>
+    public Task<Carrefour.Desafio.Common.Result.PagedResult<Lancamento>> GetAllAsync(int page, int size, string order, CancellationToken cancellationToken = default);
+}

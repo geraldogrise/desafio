@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\repositorios\\desafio\\ConsolidadoWorker\\ConsolidadoWorker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E3831E64-2676-4BBA-9B55-39C54A5F0E17}|Worker\\Worker.csproj|c:\\repositorios\\desafio\\consolidadoworker\\consolidadoworker\\worker\\consolidadokafkaconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3831E64-2676-4BBA-9B55-39C54A5F0E17}|Worker\\Worker.csproj|solutionrelative:worker\\consolidadokafkaconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3831E64-2676-4BBA-9B55-39C54A5F0E17}|Worker\\Worker.csproj|c:\\repositorios\\desafio\\consolidadoworker\\consolidadoworker\\worker\\kafka\\consolidadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3831E64-2676-4BBA-9B55-39C54A5F0E17}|Worker\\Worker.csproj|solutionrelative:worker\\kafka\\consolidadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsolidadoKafkaConsumer.cs",
+              "DocumentMoniker": "C:\\repositorios\\desafio\\ConsolidadoWorker\\ConsolidadoWorker\\Worker\\ConsolidadoKafkaConsumer.cs",
+              "RelativeDocumentMoniker": "Worker\\ConsolidadoKafkaConsumer.cs",
+              "ToolTip": "C:\\repositorios\\desafio\\ConsolidadoWorker\\ConsolidadoWorker\\Worker\\ConsolidadoKafkaConsumer.cs",
+              "RelativeToolTip": "Worker\\ConsolidadoKafkaConsumer.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAACoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T23:17:00.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConsolidadoService.cs",
+              "DocumentMoniker": "C:\\repositorios\\desafio\\ConsolidadoWorker\\ConsolidadoWorker\\Worker\\Kafka\\ConsolidadoService.cs",
+              "RelativeDocumentMoniker": "Worker\\Kafka\\ConsolidadoService.cs",
+              "ToolTip": "C:\\repositorios\\desafio\\ConsolidadoWorker\\ConsolidadoWorker\\Worker\\Kafka\\ConsolidadoService.cs",
+              "RelativeToolTip": "Worker\\Kafka\\ConsolidadoService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAowBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T22:40:36.276Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
