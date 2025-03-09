@@ -1,37 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\repositorios\\desafio\\ConsolidadoApi\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{670876DF-9FD0-09AC-4768-6BD0FC32C7D8}|tests\\Carrefour.Desafio.Unit\\Carrefour.Desafio.Unit.csproj|c:\\repositorios\\desafio\\consolidadoapi\\tests\\carrefour.desafio.unit\\application\\consolidados\\getallconsolidadoshandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{670876DF-9FD0-09AC-4768-6BD0FC32C7D8}|tests\\Carrefour.Desafio.Unit\\Carrefour.Desafio.Unit.csproj|solutionrelative:tests\\carrefour.desafio.unit\\application\\consolidados\\getallconsolidadoshandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\repositorio\\desafio\\ConsolidadoApi\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedHeight": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GetAllConsolidadosHandlerTests.cs",
-              "DocumentMoniker": "C:\\repositorios\\desafio\\ConsolidadoApi\\tests\\Carrefour.Desafio.Unit\\Application\\Consolidados\\GetAllConsolidadosHandlerTests.cs",
-              "RelativeDocumentMoniker": "tests\\Carrefour.Desafio.Unit\\Application\\Consolidados\\GetAllConsolidadosHandlerTests.cs",
-              "ToolTip": "C:\\repositorios\\desafio\\ConsolidadoApi\\tests\\Carrefour.Desafio.Unit\\Application\\Consolidados\\GetAllConsolidadosHandlerTests.cs",
-              "RelativeToolTip": "tests\\Carrefour.Desafio.Unit\\Application\\Consolidados\\GetAllConsolidadosHandlerTests.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAABwAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T11:33:48.219Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

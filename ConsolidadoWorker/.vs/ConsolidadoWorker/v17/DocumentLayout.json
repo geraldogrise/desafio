@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\repositorio\\desafio\\ConsolidadoWorker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E3831E64-2676-4BBA-9B55-39C54A5F0E17}|Worker\\Worker.csproj|c:\\repositorio\\desafio\\consolidadoworker\\worker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E3831E64-2676-4BBA-9B55-39C54A5F0E17}|Worker\\Worker.csproj|solutionrelative:worker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3831E64-2676-4BBA-9B55-39C54A5F0E17}|Worker\\Worker.csproj|c:\\repositorio\\desafio\\consolidadoworker\\worker\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E3831E64-2676-4BBA-9B55-39C54A5F0E17}|Worker\\Worker.csproj|solutionrelative:worker\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\repositorio\\desafio\\ConsolidadoWorker\\Worker\\appsettings.json",
+              "RelativeDocumentMoniker": "Worker\\appsettings.json",
+              "ToolTip": "C:\\repositorio\\desafio\\ConsolidadoWorker\\Worker\\appsettings.json",
+              "RelativeToolTip": "Worker\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-09T16:55:34.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\repositorio\\desafio\\ConsolidadoWorker\\Worker\\Dockerfile",
+              "RelativeDocumentMoniker": "Worker\\Dockerfile",
+              "ToolTip": "C:\\repositorio\\desafio\\ConsolidadoWorker\\Worker\\Dockerfile",
+              "RelativeToolTip": "Worker\\Dockerfile",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-09T16:51:18.852Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

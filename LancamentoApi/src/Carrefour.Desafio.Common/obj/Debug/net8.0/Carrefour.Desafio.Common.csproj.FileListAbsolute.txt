@@ -1,0 +1,13 @@
+C:\repositorio\desafio\LancamentoApi\src\Carrefour.Desafio.Common\bin\Debug\net8.0\Carrefour.Desafio.Common.deps.json
+C:\repositorio\desafio\LancamentoApi\src\Carrefour.Desafio.Common\bin\Debug\net8.0\Carrefour.Desafio.Common.dll
+C:\repositorio\desafio\LancamentoApi\src\Carrefour.Desafio.Common\bin\Debug\net8.0\Carrefour.Desafio.Common.pdb
+C:\repositorio\desafio\LancamentoApi\src\Carrefour.Desafio.Common\obj\Debug\net8.0\Carrefour.Desafio.Common.csproj.AssemblyReference.cache
+C:\repositorio\desafio\LancamentoApi\src\Carrefour.Desafio.Common\obj\Debug\net8.0\Carrefour.Desafio.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\repositorio\desafio\LancamentoApi\src\Carrefour.Desafio.Common\obj\Debug\net8.0\Carrefour.Desafio.Common.AssemblyInfoInputs.cache
+C:\repositorio\desafio\LancamentoApi\src\Carrefour.Desafio.Common\obj\Debug\net8.0\Carrefour.Desafio.Common.AssemblyInfo.cs
+C:\repositorio\desafio\LancamentoApi\src\Carrefour.Desafio.Common\obj\Debug\net8.0\Carrefour.Desafio.Common.csproj.CoreCompileInputs.cache
+C:\repositorio\desafio\LancamentoApi\src\Carrefour.Desafio.Common\obj\Debug\net8.0\Carrefour.Desafio.Common.sourcelink.json
+C:\repositorio\desafio\LancamentoApi\src\Carrefour.Desafio.Common\obj\Debug\net8.0\Carrefour.Desafio.Common.dll
+C:\repositorio\desafio\LancamentoApi\src\Carrefour.Desafio.Common\obj\Debug\net8.0\refint\Carrefour.Desafio.Common.dll
+C:\repositorio\desafio\LancamentoApi\src\Carrefour.Desafio.Common\obj\Debug\net8.0\Carrefour.Desafio.Common.pdb
+C:\repositorio\desafio\LancamentoApi\src\Carrefour.Desafio.Common\obj\Debug\net8.0\ref\Carrefour.Desafio.Common.dll

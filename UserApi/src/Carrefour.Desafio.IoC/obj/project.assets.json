@@ -3889,23 +3889,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\geraldo grise\\.nuget\\packages\\": {},
+    "C:\\Users\\ggsousa2\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repositorios\\desafio\\UserApi\\src\\Carrefour.Desafio.IoC\\Carrefour.Desafio.IoC.csproj",
+      "projectUniqueName": "C:\\repositorio\\desafio\\UserApi\\src\\Carrefour.Desafio.IoC\\Carrefour.Desafio.IoC.csproj",
       "projectName": "Carrefour.Desafio.IoC",
-      "projectPath": "C:\\repositorios\\desafio\\UserApi\\src\\Carrefour.Desafio.IoC\\Carrefour.Desafio.IoC.csproj",
-      "packagesPath": "C:\\Users\\geraldo grise\\.nuget\\packages\\",
-      "outputPath": "C:\\repositorios\\desafio\\UserApi\\src\\Carrefour.Desafio.IoC\\obj\\",
+      "projectPath": "C:\\repositorio\\desafio\\UserApi\\src\\Carrefour.Desafio.IoC\\Carrefour.Desafio.IoC.csproj",
+      "packagesPath": "C:\\Users\\ggsousa2\\.nuget\\packages\\",
+      "outputPath": "C:\\repositorio\\desafio\\UserApi\\src\\Carrefour.Desafio.IoC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\geraldo grise\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ggsousa2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3920,17 +3920,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\repositorios\\desafio\\UserApi\\src\\Carrefour.Desafio.Application\\Carrefour.Desafio.Application.csproj": {
-              "projectPath": "C:\\repositorios\\desafio\\UserApi\\src\\Carrefour.Desafio.Application\\Carrefour.Desafio.Application.csproj"
+            "C:\\repositorio\\desafio\\UserApi\\src\\Carrefour.Desafio.Application\\Carrefour.Desafio.Application.csproj": {
+              "projectPath": "C:\\repositorio\\desafio\\UserApi\\src\\Carrefour.Desafio.Application\\Carrefour.Desafio.Application.csproj"
             },
-            "C:\\repositorios\\desafio\\UserApi\\src\\Carrefour.Desafio.Common\\Carrefour.Desafio.Common.csproj": {
-              "projectPath": "C:\\repositorios\\desafio\\UserApi\\src\\Carrefour.Desafio.Common\\Carrefour.Desafio.Common.csproj"
+            "C:\\repositorio\\desafio\\UserApi\\src\\Carrefour.Desafio.Common\\Carrefour.Desafio.Common.csproj": {
+              "projectPath": "C:\\repositorio\\desafio\\UserApi\\src\\Carrefour.Desafio.Common\\Carrefour.Desafio.Common.csproj"
             },
-            "C:\\repositorios\\desafio\\UserApi\\src\\Carrefour.Desafio.Domain\\Carrefour.Desafio.Domain.csproj": {
-              "projectPath": "C:\\repositorios\\desafio\\UserApi\\src\\Carrefour.Desafio.Domain\\Carrefour.Desafio.Domain.csproj"
+            "C:\\repositorio\\desafio\\UserApi\\src\\Carrefour.Desafio.Domain\\Carrefour.Desafio.Domain.csproj": {
+              "projectPath": "C:\\repositorio\\desafio\\UserApi\\src\\Carrefour.Desafio.Domain\\Carrefour.Desafio.Domain.csproj"
             },
-            "C:\\repositorios\\desafio\\UserApi\\src\\Carrefour.Desafio.WebApi.ORM\\Carrefour.Desafio.WebApi.ORM.csproj": {
-              "projectPath": "C:\\repositorios\\desafio\\UserApi\\src\\Carrefour.Desafio.WebApi.ORM\\Carrefour.Desafio.WebApi.ORM.csproj"
+            "C:\\repositorio\\desafio\\UserApi\\src\\Carrefour.Desafio.WebApi.ORM\\Carrefour.Desafio.WebApi.ORM.csproj": {
+              "projectPath": "C:\\repositorio\\desafio\\UserApi\\src\\Carrefour.Desafio.WebApi.ORM\\Carrefour.Desafio.WebApi.ORM.csproj"
             }
           }
         }

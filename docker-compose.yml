@@ -100,6 +100,17 @@ services:
     networks:
        - monitoring
        
+  carrefour_consolidado_worker:
+    container_name: carrefour_consolidado_worker
+    build:
+      context: ./ConsolidadoWorker/Worker
+      dockerfile: Dockerfile
+    depends_on:
+      - kafka
+      - redis
+    networks:
+      - monitoring
+       
   redis:
     image: redis:latest
     container_name: redis
@@ -147,3 +158,17 @@ services:
      KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: kafka:29092
     networks:
       - monitoring
+      
+  portainer:
+    image: portainer/portainer-ce
+    container_name: portainer
+    restart: always
+    ports:
+      - "9000:9000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data
+    networks:
+      - monitoring
+volumes:
+  portainer_data:

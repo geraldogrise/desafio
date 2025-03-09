@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\repositorios\\desafio\\UserApi\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\repositorio\\desafio\\UserApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD946F2-0AA3-180E-3678-4748DFC2AD1E}|src\\Carrefour.Desafio.WebApi\\Carrefour.Desafio.WebApi.csproj|c:\\repositorio\\desafio\\userapi\\src\\carrefour.desafio.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4FD946F2-0AA3-180E-3678-4748DFC2AD1E}|src\\Carrefour.Desafio.WebApi\\Carrefour.Desafio.WebApi.csproj|solutionrelative:src\\carrefour.desafio.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\repositorio\\desafio\\UserApi\\src\\Carrefour.Desafio.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Carrefour.Desafio.WebApi\\appsettings.json",
+              "ToolTip": "C:\\repositorio\\desafio\\UserApi\\src\\Carrefour.Desafio.WebApi\\appsettings.json",
+              "RelativeToolTip": "src\\Carrefour.Desafio.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-09T16:20:49.739Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

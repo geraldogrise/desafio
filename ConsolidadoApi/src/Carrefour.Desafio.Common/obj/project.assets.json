@@ -2144,23 +2144,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\geraldo grise\\.nuget\\packages\\": {},
+    "C:\\Users\\ggsousa2\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repositorios\\desafio\\ConsolidadoApi\\src\\Carrefour.Desafio.Common\\Carrefour.Desafio.Common.csproj",
+      "projectUniqueName": "C:\\repositorio\\desafio\\ConsolidadoApi\\src\\Carrefour.Desafio.Common\\Carrefour.Desafio.Common.csproj",
       "projectName": "Carrefour.Desafio.Common",
-      "projectPath": "C:\\repositorios\\desafio\\ConsolidadoApi\\src\\Carrefour.Desafio.Common\\Carrefour.Desafio.Common.csproj",
-      "packagesPath": "C:\\Users\\geraldo grise\\.nuget\\packages\\",
-      "outputPath": "C:\\repositorios\\desafio\\ConsolidadoApi\\src\\Carrefour.Desafio.Common\\obj\\",
+      "projectPath": "C:\\repositorio\\desafio\\ConsolidadoApi\\src\\Carrefour.Desafio.Common\\Carrefour.Desafio.Common.csproj",
+      "packagesPath": "C:\\Users\\ggsousa2\\.nuget\\packages\\",
+      "outputPath": "C:\\repositorio\\desafio\\ConsolidadoApi\\src\\Carrefour.Desafio.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\geraldo grise\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ggsousa2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

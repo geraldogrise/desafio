@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repositorios\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.WebApi.ORM\\Carrefour.Desafio.WebApi.ORM.csproj": {}
+    "C:\\repositorio\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.WebApi.ORM\\Carrefour.Desafio.WebApi.ORM.csproj": {}
   },
   "projects": {
-    "C:\\repositorios\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.Common\\Carrefour.Desafio.Common.csproj": {
+    "C:\\repositorio\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.Common\\Carrefour.Desafio.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repositorios\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.Common\\Carrefour.Desafio.Common.csproj",
+        "projectUniqueName": "C:\\repositorio\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.Common\\Carrefour.Desafio.Common.csproj",
         "projectName": "Carrefour.Desafio.Common",
-        "projectPath": "C:\\repositorios\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.Common\\Carrefour.Desafio.Common.csproj",
-        "packagesPath": "C:\\Users\\geraldo grise\\.nuget\\packages\\",
-        "outputPath": "C:\\repositorios\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.Common\\obj\\",
+        "projectPath": "C:\\repositorio\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.Common\\Carrefour.Desafio.Common.csproj",
+        "packagesPath": "C:\\Users\\ggsousa2\\.nuget\\packages\\",
+        "outputPath": "C:\\repositorio\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\geraldo grise\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ggsousa2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -126,20 +126,20 @@
         }
       }
     },
-    "C:\\repositorios\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.Domain\\Carrefour.Desafio.Domain.csproj": {
+    "C:\\repositorio\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.Domain\\Carrefour.Desafio.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repositorios\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.Domain\\Carrefour.Desafio.Domain.csproj",
+        "projectUniqueName": "C:\\repositorio\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.Domain\\Carrefour.Desafio.Domain.csproj",
         "projectName": "Carrefour.Desafio.Domain",
-        "projectPath": "C:\\repositorios\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.Domain\\Carrefour.Desafio.Domain.csproj",
-        "packagesPath": "C:\\Users\\geraldo grise\\.nuget\\packages\\",
-        "outputPath": "C:\\repositorios\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.Domain\\obj\\",
+        "projectPath": "C:\\repositorio\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.Domain\\Carrefour.Desafio.Domain.csproj",
+        "packagesPath": "C:\\Users\\ggsousa2\\.nuget\\packages\\",
+        "outputPath": "C:\\repositorio\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\geraldo grise\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ggsousa2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -154,8 +154,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\repositorios\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.Common\\Carrefour.Desafio.Common.csproj": {
-                "projectPath": "C:\\repositorios\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.Common\\Carrefour.Desafio.Common.csproj"
+              "C:\\repositorio\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.Common\\Carrefour.Desafio.Common.csproj": {
+                "projectPath": "C:\\repositorio\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.Common\\Carrefour.Desafio.Common.csproj"
               }
             }
           }
@@ -205,20 +205,20 @@
         }
       }
     },
-    "C:\\repositorios\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.WebApi.ORM\\Carrefour.Desafio.WebApi.ORM.csproj": {
+    "C:\\repositorio\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.WebApi.ORM\\Carrefour.Desafio.WebApi.ORM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repositorios\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.WebApi.ORM\\Carrefour.Desafio.WebApi.ORM.csproj",
+        "projectUniqueName": "C:\\repositorio\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.WebApi.ORM\\Carrefour.Desafio.WebApi.ORM.csproj",
         "projectName": "Carrefour.Desafio.WebApi.ORM",
-        "projectPath": "C:\\repositorios\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.WebApi.ORM\\Carrefour.Desafio.WebApi.ORM.csproj",
-        "packagesPath": "C:\\Users\\geraldo grise\\.nuget\\packages\\",
-        "outputPath": "C:\\repositorios\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.WebApi.ORM\\obj\\",
+        "projectPath": "C:\\repositorio\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.WebApi.ORM\\Carrefour.Desafio.WebApi.ORM.csproj",
+        "packagesPath": "C:\\Users\\ggsousa2\\.nuget\\packages\\",
+        "outputPath": "C:\\repositorio\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.WebApi.ORM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\geraldo grise\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ggsousa2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -233,8 +233,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\repositorios\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.Domain\\Carrefour.Desafio.Domain.csproj": {
-                "projectPath": "C:\\repositorios\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.Domain\\Carrefour.Desafio.Domain.csproj"
+              "C:\\repositorio\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.Domain\\Carrefour.Desafio.Domain.csproj": {
+                "projectPath": "C:\\repositorio\\desafio\\LancamentoApi\\src\\Carrefour.Desafio.Domain\\Carrefour.Desafio.Domain.csproj"
               }
             }
           }

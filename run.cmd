@@ -7,6 +7,7 @@ docker network connect monitoring zookeeper
 docker network connect monitoring kafka
 docker network connect monitoring redis
 docker network connect monitoring kafka-ui
+docker network connect monitoring portainer
 
 docker run -dit --name user_api --network monitoring -p 9099:8080 desafio-carrefour_user_webapi
 docker run -dit --name lancamento_api --network monitoring -p 19099:8080 desafio-carrefour_lancamento_webapi
