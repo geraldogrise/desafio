@@ -1,5 +1,23 @@
 # Desafio de Arquitetura de Software para Fluxo de Caixa
 
+## Executando a Aplicação 🚀
+
+Para facilitar a execução do projeto, incluímos um script automatizado. Basta seguir os passos abaixo:
+
+1. **Certifique-se de que todas as dependências estão instaladas** (Docker, .NET SDK, PostgreSQL, Redis, etc.).
+2. **Abra o terminal na raiz do projeto**.
+3. **Execute o seguinte comando**:
+
+   ```sh
+   run.cmd
+
+## Banco de Dados e Mensageria 📊📩
+
+Para facilitar a execução local e garantir um desenvolvimento mais ágil, todos os microserviços utilizam o **SQL Server Express** como banco de dados. Essa escolha permite uma configuração simplificada e um ambiente unificado para testes e validação da aplicação.
+
+Além disso, para atender aos requisitos do desafio e simular um ambiente assíncrono, foi utilizado o **Kafka** como sistema de mensageria. No ambiente real, a solução utilizaria o **Amazon SQS**, mas o Kafka foi escolhido para a versão local devido à facilidade de configuração e redução de custos no desenvolvimento. Isso garante que a solução possa ser testada de forma fiel ao comportamento esperado em produção. 🚀
+
+
 ## Introdução
 Para atender aos requisitos do desafio de desenvolver uma arquitetura de software escalável e resiliente para controlar lançamentos de débito e crédito e gerar o consolidado diário de um fluxo de caixa, foram propostas duas soluções baseadas em princípios modernos de arquitetura.
 
@@ -89,3 +107,66 @@ Uma melhoria significativa pode ser implementada utilizando **AWS Lambda com AWS
 
 ## Considerações Finais
 A solução com AWS Lambda e Step Functions representa uma melhoria significativa, oferecendo uma arquitetura mais ágil, escalável e com custos reduzidos. Ambas as abordagens atendem aos requisitos do desafio com alto desempenho e alta disponibilidade, permitindo flexibilidade na escolha da melhor arquitetura para cada cenário.
+
+## 📌 Serviços Utilizados
+
+### 🗄️ Banco de Dados: SQL Server Express
+- **Imagem:** `mcr.microsoft.com/mssql/server:2019-latest`
+- **Motivo:** Banco de dados relacional para armazenamento das informações da aplicação.
+- **Volumes:** Persistência de dados evitando perda ao reiniciar o container.
+- **Porta:** `1433:1433` (porta padrão do SQL Server).
+
+### 📊 Monitoramento e Observabilidade: Prometheus e Grafana
+- **Prometheus:**
+  - **Imagem:** `prom/prometheus`
+  - **Motivo:** Coleta métricas de desempenho e saúde da aplicação.
+  - **Volumes:** `prometheus.yml` (configuração para coleta de métricas).
+  - **Porta:** `9090` (interface web para consulta de métricas).
+  
+- **Grafana:**
+  - **Imagem:** `grafana/grafana`
+  - **Motivo:** Dashboards interativos para visualizar métricas coletadas pelo Prometheus.
+  - **Volumes:** Dashboards e provisionamento de configurações.
+  - **Porta:** `3000` (interface gráfica de monitoramento).
+
+### 🏗️ Microsserviços
+Os seguintes microsserviços foram implementados como Web APIs:
+- **`carrefour_user_webapi`**: Gerencia usuários e autenticação.
+- **`carrefour_lancamento_webapi`**: Registra lançamentos de crédito/débito.
+- **`carrefour_consolidado_webapi`**: Consolida transações diárias.
+
+Cada serviço:
+- Tem seu próprio Dockerfile (`build.context`).
+- Está configurado para rodar nas portas HTTP (`8080`) e HTTPS (`8081`), mapeadas para diferentes portas para evitar conflitos (`9098`, `19098`, `29098`).
+- Compartilha volumes de secrets e certificados (`usersecrets`, `https`).
+
+### 🔄 Processamento Assíncrono: Worker para Consolidação
+- **Container:** `carrefour_consolidado_worker`
+- **Motivo:** Processa transações de forma assíncrona.
+- **Depende de:** Kafka (para mensageria) e Redis (para caching e controle de idempotência).
+
+### 📬 Mensageria: Kafka e Redis
+- **Kafka:** Garante comunicação assíncrona e processamento distribuído.
+  - **Depende do Zookeeper** (gerencia os brokers).
+  - **Porta:** `9092` (acesso ao broker).
+- **Redis:** Armazena dados temporários, evitando processamento duplicado.
+  - **Porta:** `6379`.
+
+### 🖥️ Interface para Kafka: Kafka UI
+- **Motivo:** Permite visualizar mensagens no Kafka.
+- **Porta:** `8082` (acesso via navegador).
+
+### 🔧 Gerenciamento de Containers: Portainer
+- **Motivo:** Facilita a administração dos containers via interface web.
+- **Porta:** `9000`.
+
+---
+
+## 🌐 Rede e Comunicação
+- Todos os serviços compartilham a rede `monitoring`, garantindo comunicação interna segura.
+
+## 💾 Volumes Persistentes
+- SQL Server, Portainer e Grafana utilizam volumes para evitar perda de dados entre reinicializações.
+
+Essa estrutura fornece um ambiente completo para desenvolvimento e testes, simulando uma arquitetura real com **banco de dados, microsserviços, processamento assíncrono e monitoramento**. 🚀
+
