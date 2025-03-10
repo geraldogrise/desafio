@@ -18,6 +18,30 @@ Para facilitar a execução local e garantir um desenvolvimento mais ágil, todo
 Além disso, para atender aos requisitos do desafio e simular um ambiente assíncrono, foi utilizado o **Kafka** como sistema de mensageria. No ambiente real, a solução utilizaria o **Amazon SQS**, mas o Kafka foi escolhido para a versão local devido à facilidade de configuração e redução de custos no desenvolvimento. Isso garante que a solução possa ser testada de forma fiel ao comportamento esperado em produção. 🚀
 
 
+# Guia de Uso do Sistema
+
+## Autenticação
+Para utilizar o sistema, é necessário obter um token JWT. Siga os passos abaixo:
+
+1. Acesse a API de autenticação (`user_api`).
+2. Utilize as credenciais abaixo para gerar o token JWT:
+   - **Usuário:** geraldogrise@hotmail.com  
+   - **Senha:** Spike@888  
+
+## Lançamento de Transações
+
+Após obter o token JWT, utilize-o para realizar lançamentos acessando a seguinte URL:
+
+- [Swagger - Lançamento de Transações](http://localhost:19099/swagger/index.html)
+
+## Verificação de Consolidação
+
+Para verificar a consolidação das transações, acesse:
+
+- [Swagger - Consolidação de Transações](http://localhost:29099/swagger/index.html)
+
+Certifique-se de incluir o token JWT no cabeçalho das requisições para autorização.
+
 ## Introdução
 Para atender aos requisitos do desafio de desenvolver uma arquitetura de software escalável e resiliente para controlar lançamentos de débito e crédito e gerar o consolidado diário de um fluxo de caixa, foram propostas duas soluções baseadas em princípios modernos de arquitetura.
 
