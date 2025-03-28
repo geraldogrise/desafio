@@ -1,0 +1,93 @@
+.form-control:focus {
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
+  border: 1px solid #ced4da;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+.form-search {
+	background-image: url('../images/searchicon.png');
+	background-position: right center;
+    background-repeat: no-repeat;
+}
+
+
+.text-addon{
+  right: 0px;
+  top: 0px;
+  position: absolute;
+  width: 35px;
+  height: calc(1.5em + 0.75rem + 2px);
+  cursor:pointer;
+  background:#f3f3f3;
+  border: 1px solid #ced4da;
+}
+
+.text-addon::before {
+  content: url('../images/caret.png');
+  color: black;
+  display: inline-block;
+  padding-top:0.7em;
+  margin-left: 0.6em;
+}
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width:100%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border: 1px solid #ddd;
+  z-index: 1;
+  width:100%;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+.caret::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  transform: rotate(90deg);
+}
+

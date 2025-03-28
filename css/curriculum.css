@@ -1,0 +1,163 @@
+*{
+	margin:0;
+	padding:0;
+}
+body,span,p,i,strong,b{
+	  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	 
+}
+
+ul{
+	margin:5px 0;
+	padding:0;
+}
+li{
+	font-size:16px;
+}
+.page{
+	width:80%;
+	margin:70px auto;
+}
+.container{
+	float:left;
+	width:100%;
+	padding-bottom:15px;
+}
+
+.info span{
+	float:left;
+	width:100%;
+	margin-top:5px;
+	font-size:12px;
+}
+
+.info i{
+	float:left;
+	margin-right:5px;
+}
+.fa-envelope,.fa-phone-alt{
+	padding-top: 3px;
+}
+.container .info strong{
+	width:40px !important;
+}
+
+.left{
+	float:left;
+	width:70%;
+}
+
+.right{
+	float:right;
+	width:30%;
+}
+
+.fa-envelope,.fa-address-card{
+	margin-top:2px;
+}
+.info .fa-user{
+	margin-top:2px;
+}
+
+.container{
+	margin:5px 0;
+}
+h3{
+	float:left;
+	width:100%;
+	margin-bottom:5px;
+	margin-top:20px;
+}
+
+.container h2{
+	margin:3px 0;
+	border-bottom: 1px solid #333
+}
+
+.container ul{
+	list-style:none;
+}
+.container p{
+	text-align:justify;
+	font-size:18px;
+}
+
+.container strong{
+	float:left;
+	width:80px;
+}
+
+
+.container.experience strong{
+	float:left;
+	width:85px;
+}
+
+div.project{
+	float:left;
+	width:100%;
+}
+div.db{
+	float:left;
+	width:100%;
+}
+
+.experience ul li.project-item
+{
+	margin-left:20px;
+	margin-top:10px;
+}
+
+.tech li{
+	display:inline;
+}
+
+.cursos ul{
+	margin-top:10px;
+	margin-bottom:10px;
+	float:left;
+}
+.cursos ul span{
+	float:left;
+	width:100%;
+	font-weight:bold;
+}
+
+.cursos  strong{
+	width:150px;
+}
+.cursos ul li{
+	float:left;
+	width:100%;
+}
+
+.languages ul{
+	margin-top:10px;
+	margin-bottom:10px;
+	float:left;
+}
+.languages ul span{
+	float:left;
+	width:100%;
+	font-weight:bold;
+}
+.languages ul li{
+	float:left;
+	width:100%;
+}
+.languages ul li strong{
+	width:120px;
+}
+
+@media print {
+  @page { margin: 0; }
+  body { margin: 1.6cm; }
+  @page :footer {display:none }
+  @page :header {display:none}
+  .page-break{
+	  page-break-after: always;
+	  margin-top:70px;
+  }
+}
+
+

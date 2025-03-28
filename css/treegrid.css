@@ -1,0 +1,128 @@
+.treegrid{
+	float:left;
+	width:100%;
+}
+
+.treegrid div.treegrid-table 
+{
+	border: 1px solid #dfdfdf;
+	display: table;
+	width:100%
+}
+.treegrid div.treegrid-row {
+	border: 1px solid #dfdfdf;
+}
+.treegrid-row.level-0{
+	display:table-row;
+}
+
+.treegrid-row.level-1, .treegrid-row.level-2, .treegrid-row.level-3{
+	display:none;
+}
+.treegrid div.treegrid-cell.treegrid-header{
+   background:#fafafa;
+}
+
+.treegrid div.treegrid-cell{
+	border: 1px solid #dfdfdf;
+	display: table-cell; 
+	padding:5px;
+}
+.treegrid div.treegrid-cell.w1{
+	width:10%;
+}
+.treegrid div.treegrid-cell.w15{
+	width:15%;
+}
+.treegrid div.treegrid-cell.w20{
+	width:20%;
+}
+.treegrid div.treegrid-cell.w25{
+	width:25%;
+}
+.treegrid div.treegrid-cell.w30{
+	width:30%;
+}
+.treegrid div.treegrid-cell.w40{
+	width:40%;
+}
+.treegrid div.treegrid-cell.w45{
+	width:45%;
+}
+.treegrid div.treegrid-cell.w50{
+	width:50%;
+}
+.treegrid div.treegrid-cell.w55{
+	width:55%;
+}
+.treegrid div.treegrid-cell.w60{
+	width:60%;
+}
+.treegrid div.treegrid-cell.w65{
+	width:65%;
+}
+.treegrid div.treegrid-cell.w70{
+	width:70%;
+}
+.treegrid div.treegrid-cell.w75{
+	width:75%;
+}
+
+.treegrid div.treegrid-cell.w80{
+	width:80%;
+}
+
+.treegrid div.cell-text{
+	 border-left:0px;
+	 border-right:0px;
+}
+
+.treegrid div.cell-none-left{
+	 border-right:0;
+}
+.treegrid div.cell-value{
+	 border-left:0;
+}
+.treegrid .level-1 div.cell-none-left i
+{
+   padding-left:10px;	
+}
+.treegrid .level-2 div.cell-none-left i
+{
+   padding-left:20px;	
+}
+
+.treegrid .level-3 div.cell-none-left i
+{
+   padding-left:30px;	
+}
+.tree-arrow-right.caret::before {
+  content: "\25B6";
+  color: #696969;
+  display: inline-block;
+  font-size: 12px;
+  cursor:pointer;
+}
+
+.tree-arrow-right.caret-down::before {
+  transform: rotate(90deg);
+}
+
+.tree-arrow-right.caret-down::before {
+  content: "\25B6";
+  color: #696969;
+  display: inline-block;
+  font-size: 12px;
+  cursor:pointer;
+}
+
+.tree-arrow-right.caret-down::before {
+  transform: rotate(270deg);
+}
+
+.dropdown-content .treegrid div.treegrid-row:hover div.treegrid-cell{
+	background-color: #f1f1f1;	
+} 
+
+
+

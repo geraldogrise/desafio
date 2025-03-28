@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Carrefour.Desafio.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0db393666d55c7caa7e9a0bfd702b7056664a068")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95c07bf0452ce3ed447fc4e2c66cc7cba82abb29")]
 [assembly: System.Reflection.AssemblyProductAttribute("Carrefour.Desafio.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Carrefour.Desafio.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

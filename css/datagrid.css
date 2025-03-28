@@ -1,0 +1,77 @@
+table.datagrid{
+	float:left;
+	width:100%;
+}
+table.datagrid caption{
+	width:100%;
+	margin-bottom:10px;
+}
+
+.datagrid-title
+{
+	float:left;
+	width:70%;
+}
+.datagrid-title span{
+   float:left;
+   color: #404040;
+   line-height: 20px;
+   font-size: 20px;
+   padding-top:5px;
+   font-weight:bold;
+}
+
+.datagrid-search{
+	float:left;
+	width:30%;
+}
+
+table.datagrid, table.datagrid th,table.datagrid  td{
+  border: 1px solid #dfdfdf;
+  border-collapse: collapse;
+}
+table.datagrid th{
+	background-color: #fafafa;
+}
+
+table.datagrid th, table.datagrid td {
+  padding: 5px;
+}
+
+table.datagrid th {
+    font-size: 14px;
+    font-weight: bold;
+    color: #404040;
+    height: 20px;
+    line-height: 20px;
+	text-align:left;
+}
+
+table.datagrid td.cntr,table.datagrid th.cntr{
+	text-align:center !important;
+	
+}
+
+table.datagrid td.cntr a,table.datagrid th.cntr a{
+	color:#333;
+	font-size:14px;
+}
+
+
+
+table.datagrid td {
+    font-size: 14px;
+    color: #404040;
+    height: 20px;
+    line-height: 20px;
+	text-align:left;
+}
+
+tr.aux,tr.hide
+{
+	display:none;
+}
+
+a.ibtn.disabled{
+	opacity: 0.5;
+}
