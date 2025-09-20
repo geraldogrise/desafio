@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Carrefour.Desafio.WebApi.props" />
-</Project>
